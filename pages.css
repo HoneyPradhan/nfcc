@@ -1,0 +1,37 @@
+#about{
+    margin-top: -150px;
+}
+
+#about h1{
+    color: #0b5394;
+    font-weight: 600;
+}
+
+#contact{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:#0b5394;
+    border-radius: 25px;
+    margin-top: 20vh;
+    margin-left: 30%;
+    color: white;
+}
+
+#contact p{
+    background:#0b5394;
+}
+#contact h1{
+    background: #0b5394;
+    color: white;
+    font-weight: 600;
+}
+
+#contact p a{
+    background: #0b5394;
+    color: white;
+    font-style: bold,italic;
+}

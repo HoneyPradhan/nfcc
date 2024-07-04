@@ -1,0 +1,154 @@
+/* nfc.css */
+
+/* Apply global background color */
+/* * {
+  background: rgb(244, 241, 241);
+} */
+
+/* Main NFC section styles */
+/* #nfcSection,
+#nfcWriteSection {
+  margin-top: 150px;
+  margin-right: 100px;
+}
+
+.nfc-section {
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+.nfc-section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* NFC action buttons and select */
+/* .nfc-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nfc-actions button {
+  width: 100%;
+  height: 35px;
+  background: #0b5394;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nfc-actions select {
+  width: 100%;
+  height: 35px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* NFC write section styles */
+/* .nfc-actions .nfc-write-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nfc-actions .nfc-write-input {
+  display: flex;
+  gap: 10px;
+}
+
+.nfc-actions input[type="text"] {
+  width: 100%;
+  height: 35px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}  */
+
+/* Responsive design for NFC section */
+/* @media (max-width: 768px) {
+  #nfcSection,
+  #nfcWriteSection {
+    margin-top: 20px;
+    margin-right: 0;
+  }
+}  */
+
+.nfc-container {
+    min-height: calc(100vh - 140px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .nfc-form {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .nfc-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .nfc-input label {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .nfc-input select,
+  .nfc-input input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .nfc-input select:focus,
+  .nfc-input input[type="text"]:focus {
+    outline: none;
+    border-color: #3f51b5;
+  }
+  
+  .nfc-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nfc-actions button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3f51b5;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .nfc-actions button:hover {
+    background-color: #303f9f;
+  }
+  @media (max-width: 768px) {
+    #nfcSection,
+    #nfcWriteSection {
+      margin-top: 20px;
+      margin-right: 0;
+    }
+}
